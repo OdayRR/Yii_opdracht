@@ -1,0 +1,200 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.Footer {
+    padding-top:32px;
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+.Footer .container{
+    text-align: center;
+}
+
+.Footer .footer-copyright{
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+.Footer  ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.Footer  a{
+    color: #282b2d;
+    font-size: 18px;
+}
+
+.Footer  li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+.Footer  .footer-social{
+    text-align: center;
+    padding-left: 25px;  
+    padding-right: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+}
+
+.Footer  .fa{
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+.Footer .fa-facebook:hover{
+    color: #2b55ff;
+}
+
+.Footer .fa-facebook:focus{
+    color: #2b55ff; 
+}
+
+.Footer .fa-google-plus:hover{
+    color:red;
+}
+
+.Footer  .fa-google-plus:focus{
+    color:red;
+}
+
+.Footer .fa-twitter:hover{
+    color: #00aced;
+
+}
+
+.Footer .fa-twitter:focus{
+    color:#00aced;
+}
+
+
+
+.jumbotron {
+    text-align: center;
+    background-color:#6666ff;
+}
+.jumbotron h1 {
+    color: blue ;
+    font-size: 50px
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.row span{
+    
+    margin-bottom: 20px;
+}
